@@ -195,6 +195,7 @@
     <string name="battery_voltage_headline">Voltage</string>
     <string name="battery_temperature_headline">Temperature</string>
     <string name="battery_technology_headline">Technology</string>
+    <string name="battery_cycle_count_headline">Cycle count</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
     <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
