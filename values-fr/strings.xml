@@ -17,7 +17,7 @@
 
     <!-- Permissions -->
     <string name="permission_required_heading">Autorisation requise</string>
-    <string name="permission_open_settings_label">Enable in settings</string>
+    <string name="permission_open_settings_label">Activer dans les paramètres</string>
 
     <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
@@ -25,19 +25,28 @@
     <string name="settings_page">Paramètres</string>
 
     <!-- Dashboard Hub page -->
-    <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
-    <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
+    <string name="dashboard_tiles_empty">Aucun élément disponible pour le moment.</string>
+    <string name="dashboard_empty_hint">Ajoutez votre premier élément pour personnaliser votre dashboard</string>
 
     <!-- Explore Hub page -->
     <string name="system_page">Système</string>
+    <string name="system_page_description">Version d\'Android, informations de build</string>
     <string name="device_page">Appareil</string>
+    <string name="device_page_description">Marque, modèle, affichage et fonctionnalités</string>
     <string name="hardware_page">Matériel</string>
+    <string name="hardware_page_description">Utilisation et fréquences du CPU et GPU</string>
     <string name="memory_page">Mémoire</string>
+    <string name="memory_page_description">Utilisation de la RAM et du stockage</string>
     <string name="camera_page">Appareil photo</string>
+    <string name="camera_page_description">Objectifs, mégapixels et stabilisation</string>
     <string name="network_page">Réseau</string>
+    <string name="network_page_description">État de la connexion, signal et vitesse</string>
     <string name="connectivity_page">Connectivité</string>
+    <string name="connectivity_page_description">Bluetooth et appareils associés</string>
     <string name="battery_page">Batterie</string>
+    <string name="battery_page_description">Santé, niveau, température et cycles</string>
     <string name="media_drm_page">DRM Média</string>
+    <string name="media_drm_page_description">Fournisseur, version et niveau de sécurité</string>
 
     <!-- System page -->
     <string name="system_os_category">SE</string>
@@ -75,7 +84,7 @@
     <string name="device_brand_headline">Marque</string>
     <string name="device_manufacturer_headline">Fabriquant</string>
     <string name="device_model_headline">Modèle</string>
-    <string name="device_model_tile_title">Device model</string>
+    <string name="device_model_tile_title">Modèle de l\'appareil</string>
     <string name="device_product_name_headline">Produit</string>
     <string name="device_sku_headline">SKU</string>
     <string name="device_display_id_category">Affichage #<xliff:g example="1" id="id">%d</xliff:g></string>
@@ -85,8 +94,8 @@
     <string name="device_display_aspect_ratio_headline">Ratio d\'aspect</string>
     <string name="device_display_refresh_rate_headline">Fréquence de rafraîchissement</string>
     <string name="device_display_pixel_density_headline">Densité</string>
-    <string name="device_display_current_density_headline">Current density</string>
-    <string name="device_display_default_density_headline">Default density</string>
+    <string name="device_display_current_density_headline">Densité actuelle</string>
+    <string name="device_display_default_density_headline">Densité par défaut</string>
     <string name="device_display_default_orientation_headline">Orientation par défaut</string>
     <string name="device_display_default_orientation_portrait">Portrait</string>
     <string name="device_display_default_orientation_landscape">Paysage</string>
@@ -128,7 +137,7 @@
     <string name="memory_ram_available_headline">Disponible</string>
     <string name="memory_ram_used_headline">Utilisé</string>
     <string name="memory_ram_usage_headline">Utilisation</string>
-    <string name="memory_ram_tile_title">Memory Usage</string>
+    <string name="memory_ram_tile_title">Mémoire vive</string>
     <string name="memory_storage_category">Stockage interne</string>
     <string name="memory_storage_hardware_headline">Matériel</string>
     <string name="memory_storage_total_headline">Total</string>
@@ -152,7 +161,7 @@
     <!-- Network page -->
     <string name="network_wifi_category">Wi-Fi</string>
     <string name="network_type_headline">Type de réseau</string>
-    <string name="network_type_cellular">Cellular</string>
+    <string name="network_type_cellular">Cellulaire</string>
     <string name="network_download_speed_headline">Vitesse de téléchargement</string>
     <string name="network_upload_speed_headline">Vitesse de téléversement</string>
     <string name="network_ssid_headline">SSID</string>
@@ -199,6 +208,7 @@
     <string name="battery_voltage_headline">Tension</string>
     <string name="battery_temperature_headline">Température</string>
     <string name="battery_technology_headline">Technologie</string>
+    <string name="battery_cycle_count_headline">Nombre de cycles</string>
     <string name="battery_current_display_value"><xliff:g id="current" example="304">%1$d</xliff:g> mA</string>
     <string name="battery_voltage_display_value"><xliff:g id="voltage" example="4.384">%1$.3f</xliff:g> V</string>
     <string name="battery_power_display_value"><xliff:g id="power" example="18">%1$.2f</xliff:g> W</string>
@@ -230,7 +240,7 @@
     <string name="settings_appearance_entry_headline">Apparence</string>
     <string name="settings_appearance_entry_description">Mode sombre et couleurs</string>
     <string name="settings_advanced_entry_headline">Avancé</string>
-    <string name="settings_advanced_entry_description">Modules optionnels</string>
+    <string name="settings_advanced_entry_description">Modules optionnels, collecte de données</string>
     <string name="settings_about_entry_headline">À propos</string>
 
     <!-- General Settings -->
@@ -254,19 +264,19 @@
     <string name="settings_appearance_dark_mode_follow_system">Suivre le système</string>
     <string name="settings_appearance_dynamic_colors_headline">Utiliser les couleurs du système</string>
     <string name="settings_appearance_dynamic_colors_description">Utiliser les couleurs fournies par le système</string>
-    <string name="settings_appearance_pure_black_headline">Use pure black in dark mode</string>
-    <string name="settings_appearance_pure_black_description">Replace the dark mode background with pure black</string>
+    <string name="settings_appearance_pure_black_headline">Noir pur en mode sombre</string>
+    <string name="settings_appearance_pure_black_description">Remplacer l\'arrière-plan du mode sombre par du noir pur</string>
     <string name="settings_appearance_system_fonts_headline">Utiliser les polices du système</string>
     <string name="settings_appearance_system_fonts_description">Utiliser les polices fournies par votre appareil</string>
     <!-- Advanced Settings -->
     <string name="settings_advanced_optional_modules_category">Modules optionnels</string>
     <string name="settings_advanced_analytics_category">Analytics</string>
-    <string name="settings_advanced_allow_analytics_headline">Allow analytics</string>
-    <string name="settings_advanced_allow_analytics_description">Send anonymous data to help us improve Inware</string>
-    <string name="settings_advanced_reset_analytics_headline">Reset device\'s identity</string>
-    <string name="settings_advanced_reset_analytics_success">Successfully reset</string>
+    <string name="settings_advanced_allow_analytics_headline">Autoriser la collecte de données</string>
+    <string name="settings_advanced_allow_analytics_description">Envoyer des données anonymes pour nous aider à améliorer Inware</string>
+    <string name="settings_advanced_reset_analytics_headline">Réinitialiser l\'identité de l\'appareil</string>
+    <string name="settings_advanced_reset_analytics_success">Réinitialisé avec succès</string>
     <string name="settings_advanced_experimental_category">Expérimental</string>
-    <string name="settings_advanced_developer_options_category">Developer options</string>
+    <string name="settings_advanced_developer_options_category">Options pour les développeurs</string>
 
     <!-- About Settings -->
     <string name="settings_about_privacy_policy_headline">Politique de Confidentialité</string>
@@ -278,12 +288,12 @@
     <string name="settings_about_button_website">Website</string>
     <string name="settings_about_button_email">Email</string>
     <string name="settings_about_thanks_to_category">Merci à</string>
-    <string name="settings_about_translate_title">Help translate Inware</string>
-    <string name="settings_about_translate_summary">Join the community project to localize new features.</string>
-    <string name="settings_about_translate_action">Open project</string>
-    <string name="settings_developer_options_warning_title">Enable developer options?</string>
-    <string name="settings_developer_options_warning_message">Developer options contain advanced settings that may affect app stability and performance.\n\nEnable only if you understand the potential risks.</string>
-    <string name="settings_developer_options_warning_proceed">Proceed</string>
+    <string name="settings_about_translate_title">Aidez à traduire Inware</string>
+    <string name="settings_about_translate_summary">Rejoignez le projet communautaire pour traduire les nouvelles fonctionnalités.</string>
+    <string name="settings_about_translate_action">Ouvrir le projet</string>
+    <string name="settings_developer_options_warning_title">Activer les options pour les développeurs ?</string>
+    <string name="settings_developer_options_warning_message">Les options pour les développeurs contiennent des paramètres avancés qui peuvent affecter la stabilité et les performances de l\'application.\n\nActivez-les uniquement si vous comprenez les risques potentiels.</string>
+    <string name="settings_developer_options_warning_proceed">Continuer</string>
 
     <!--
     Legacy strings without new equivalents.
