@@ -19,21 +19,34 @@
     <string name="permission_required_heading">Permission required</string>
     <string name="permission_open_settings_label">Enable in settings</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="settings_page">Settings</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">System</string>
+    <string name="system_page_description">Android version, build info</string>
     <string name="device_page">Device</string>
+    <string name="device_page_description">Brand, model, display and features</string>
     <string name="hardware_page">Hardware</string>
+    <string name="hardware_page_description">CPU, GPU usage and frequencies</string>
     <string name="memory_page">Memory</string>
+    <string name="memory_page_description">RAM and storage usage</string>
     <string name="camera_page">Camera</string>
+    <string name="camera_page_description">Lenses, megapixels and stabilization</string>
     <string name="network_page">Network</string>
+    <string name="network_page_description">Connection status, signal and speed</string>
     <string name="connectivity_page">Connectivity</string>
+    <string name="connectivity_page_description">Bluetooth and paired devices</string>
     <string name="battery_page">Battery</string>
+    <string name="battery_page_description">Health, level, temperature and cycles</string>
     <string name="media_drm_page">Media DRM</string>
-    <string name="settings_page">Settings</string>
+    <string name="media_drm_page_description">Vendor, version and security level</string>
 
     <!-- System page -->
     <string name="system_os_category">OS</string>

@@ -19,11 +19,16 @@
     <string name="permission_required_heading">Permission required</string>
     <string name="permission_open_settings_label">Enable in settings</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="settings_page">Параметры</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">Система</string>
     <string name="device_page">Устройство</string>
     <string name="hardware_page">Оборудование</string>
@@ -33,7 +38,6 @@
     <string name="connectivity_page">Подключение</string>
     <string name="battery_page">Батарея</string>
     <string name="media_drm_page">Media DRM</string>
-    <string name="settings_page">Параметры</string>
 
     <!-- System page -->
     <string name="system_os_category">OS</string>

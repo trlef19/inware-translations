@@ -19,11 +19,16 @@
     <string name="permission_required_heading">Engedély szükséges</string>
     <string name="permission_open_settings_label">Enable in settings</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="settings_page">Beállítások</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">Rendszer</string>
     <string name="device_page">Eszköz</string>
     <string name="hardware_page">Hardver</string>
@@ -33,7 +38,6 @@
     <string name="connectivity_page">Kapcsolódás</string>
     <string name="battery_page">Akkumulátor</string>
     <string name="media_drm_page">Média DRM</string>
-    <string name="settings_page">Beállítások</string>
 
     <!-- System page -->
     <string name="system_os_category">Operációs Rendszer</string>

@@ -19,11 +19,16 @@
     <string name="permission_required_heading">需要授權</string>
     <string name="permission_open_settings_label">Enable in settings</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="settings_page">設定</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">系統</string>
     <string name="device_page">裝置</string>
     <string name="hardware_page">硬體</string>
@@ -33,7 +38,6 @@
     <string name="connectivity_page">連線</string>
     <string name="battery_page">電池</string>
     <string name="media_drm_page">媒體 DRM</string>
-    <string name="settings_page">設定</string>
 
     <!-- System page -->
     <string name="system_os_category">系統</string>

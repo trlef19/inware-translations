@@ -19,11 +19,16 @@
     <string name="permission_required_heading">Permisiune necesară</string>
     <string name="permission_open_settings_label">Activați în setări</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Tablou de bord</string>
+    <string name="explore_page">Explorați</string>
+    <string name="settings_page">Setări</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">Deocamdată nu sunt disponibile panouri pentru tabloul de bord.</string>
     <string name="dashboard_empty_hint">Adăugați primul panou pentru a personaliza tabloul de bord</string>
-    <string name="explore_page">Explorați</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">Sistem</string>
     <string name="device_page">Dispozitiv</string>
     <string name="hardware_page">Hardware</string>
@@ -33,7 +38,6 @@
     <string name="connectivity_page">Conectivitate</string>
     <string name="battery_page">Baterie</string>
     <string name="media_drm_page">DRM media</string>
-    <string name="settings_page">Setări</string>
 
     <!-- System page -->
     <string name="system_os_category">Sistem de operare</string>

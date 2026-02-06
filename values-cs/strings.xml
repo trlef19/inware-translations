@@ -19,11 +19,16 @@
     <string name="permission_required_heading">Vyžadováno oprávnění</string>
     <string name="permission_open_settings_label">Enable in settings</string>
 
-    <!-- Drawer items & page titles -->
+    <!-- Top level page titles -->
     <string name="dashboard_page">Dashboard</string>
+    <string name="explore_page">Explore</string>
+    <string name="settings_page">Nastavení</string>
+
+    <!-- Dashboard Hub page -->
     <string name="dashboard_tiles_empty">No dashboard tiles available yet.</string>
     <string name="dashboard_empty_hint">Add your first tile to customize your dashboard</string>
-    <string name="explore_page">Explore</string>
+
+    <!-- Explore Hub page -->
     <string name="system_page">Systém</string>
     <string name="device_page">Zařízení</string>
     <string name="hardware_page">Hardware</string>
@@ -33,7 +38,6 @@
     <string name="connectivity_page">Připojení</string>
     <string name="battery_page">Baterie</string>
     <string name="media_drm_page">Média DRM</string>
-    <string name="settings_page">Nastavení</string>
 
     <!-- System page -->
     <string name="system_os_category">OS</string>
@@ -104,7 +108,7 @@
     <string name="hardware_cluster_minimum_frequency_headline">Minimální frekvence</string>
     <string name="hardware_cluster_maximum_frequency_headline">Maximální frekvence</string>
     <string name="hardware_cluster_governor_headline">Governor</string>
-    <string name="hardware_cpu_usage_category">Využití porcesoru</string>
+    <string name="hardware_cpu_usage_category">Využití procesoru</string>
     <string name="hardware_core_headline">Jádro <xliff:g example="3" id="number_of_core">%d</xliff:g></string>
     <string name="hardware_core_offline">Offline</string>
     <string name="hardware_core_frequency"><xliff:g example="857" id="frequency">%d</xliff:g> MHz</string>
